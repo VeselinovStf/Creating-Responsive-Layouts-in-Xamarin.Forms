@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4C6BA2A-C37
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{692085E1-1AF6-4D80-AACB-61F6931F6A24}"
 	ProjectSection(SolutionItems) = preProject
+		reImg\demo.bmp = reImg\demo.bmp
 		README.md = README.md
 	EndProjectSection
 EndProject

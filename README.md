@@ -1,7 +1,7 @@
 # Creating-Responsive-Layouts-in-Xamarin.Forms
 Pluralsight "Creating Responsive Layouts in Xamarin.Forms" course repository
 
-
+![Final demos presentation]()
 
 ## Course Info
 
