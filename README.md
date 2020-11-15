@@ -24,3 +24,7 @@ Pluralsight "Creating Responsive Layouts in Xamarin.Forms" course repository
 
 #### Duration: 1h 12m
 
+## Status
+
+- Completed
+
