@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Layouts.Demos;
+using System;
 using Xamarin.Forms;
 
 namespace Layouts
@@ -13,6 +9,11 @@ namespace Layouts
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void ScrollViewAndDemo_OnButtonClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ScrollAndFrameDemoPage());
         }
     }
 }
