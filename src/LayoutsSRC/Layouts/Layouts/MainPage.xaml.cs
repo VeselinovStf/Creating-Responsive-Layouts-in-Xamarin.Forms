@@ -40,5 +40,15 @@ namespace Layouts
         {
             await Navigation.PushAsync(new FlexLayoutPage());
         }
+
+        private async void CalculatorDemo_OnButtonClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalculatorPage());
+        }
+
+        private async void CatalogDemo_OnButtonClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CatalogPage());
+        }
     }
 }

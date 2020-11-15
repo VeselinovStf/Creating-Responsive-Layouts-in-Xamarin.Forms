@@ -13,6 +13,8 @@
         <Button Text="NestedStack Demo" Clicked="NestedStackDemo_OnButtonClick"/>
         <Button Text="Grid Demo" Clicked="GridDemo_OnButtonClick"/>
         <Button Text="Flex Demo" Clicked="FlexDemo_OnButtonClick"/>
+        <Button Text="Calculator Demo" Clicked="CalculatorDemo_OnButtonClick"/>
+        <Button Text="Catalog Demo" Clicked="CatalogDemo_OnButtonClick"/>
     </StackLayout>
 
 
