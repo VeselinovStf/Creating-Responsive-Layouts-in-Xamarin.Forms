@@ -8,6 +8,11 @@
     <StackLayout  Spacing="5" Margin="10">
 
         <Button Text="ScrollView and Frame Demo" Clicked="ScrollViewAndDemo_OnButtonClick"/>
+        <Button Text="RelativeLayout Demo" Clicked="RelativeLayoutDemo_OnButtonClick"/>
+        <Button Text="StackLayout Demo" Clicked="StackLayoutDemo_OnButtonClick"/>
+        <Button Text="NestedStack Demo" Clicked="NestedStackDemo_OnButtonClick"/>
+        <Button Text="Grid Demo" Clicked="GridDemo_OnButtonClick"/>
+        <Button Text="Flex Demo" Clicked="FlexDemo_OnButtonClick"/>
     </StackLayout>
 
 

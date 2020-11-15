@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Layouts.NestedStackLayouts"
+             Title="NestedStackLayout">
+    <StackLayout Margin="20">
+        <Frame BorderColor="Black" Padding="5">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Red" />
+                <Label Text="Red" FontSize="Large" VerticalOptions="Center"/>
+                
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black" Padding="5">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Yellow" />
+                <Label Text="Yellow" FontSize="Large" VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black" Padding="5">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Blue"/>
+                <Label Text="Blue" FontSize="Large" VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
