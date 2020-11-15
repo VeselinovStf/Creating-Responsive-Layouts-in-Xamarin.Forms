@@ -3,11 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Layouts.Demos.ScrollAndFrameDemoPage"
              Title="Scroll and Frame Views Demo">
-    <ContentPage.Content>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Frame">
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="BorderColor" Value="Red"/>
+                <Setter Property="CornerRadius" Value="50"/>
+                <Setter Property="HasShadow" Value="True"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
+            <Frame>
+                <Label Text="Frame Label"/>
+            </Frame>
         </StackLayout>
-    </ContentPage.Content>
+       
+    </ScrollView>
+   
 </ContentPage>
